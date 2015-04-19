@@ -18,7 +18,7 @@ This repository contains all the source files needed to built the IoBot:
 
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 
 
 
@@ -30,7 +30,9 @@ IoBot App v1.0
 
 IoBot App is application that allows you to control DIY, internet connected, Arduino based robot (IoBot).
 
-See http://iobot.info/ for detailed instruction how to build your robot and how use it. 
+IoBot App is writen in Python and Kivy.
+
+See http://iobot.info/ for detailed instruction how to build and use your robot.
 
 
 __Features:__
@@ -60,7 +62,19 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.  
 
 
-IoBot App v1.0 also uses modules or libraries from other projects:
+__IoBot App v1.0 also uses modules or libraries from other projects:__
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
 Kivy uses the MIT License - http://opensource.org/licenses/MIT
+
+
+
+
+IoBot Design Files
+------------------
+
+
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot Design Files</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
