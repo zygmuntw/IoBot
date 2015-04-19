@@ -1,0 +1,103 @@
+# IoBot App v1.0 Copyright 2015 Zygmunt Wojcik
+# http://iobot.info/
+# GNU GPL version 3 License - http://www.gnu.org/licenses/
+
+# v1.0
+
+RootWidget:
+    IoBot:
+
+                        # Root Widget
+<RootWidget>:
+    connection_button: connection_button
+    status_label: status_label
+    orientation: 'vertical'
+    
+    ActionBar:
+        ActionView:
+            ActionPrevious:
+                bold: True
+                app_icon: 'iobot_icon_32.png'
+                color: .2,.71,.9,1
+                title: 'IoBot'
+                with_previous: False
+                on_press: root.action_previous_action()
+            ActionButton:
+                id: status_label
+                on_press: app.open_settings()
+            ActionButton:
+                id: connection_button
+                bold: True
+                text: 'Connect'
+                on_press: root.connect_button_action()
+            ActionOverflow:
+                ActionButton:
+                    text: 'Settings'
+                    on_press: app.open_settings()
+            
+                         # IoBot  
+<IoBot>:
+    BoxLayout:
+        VerticalSlider: 
+            size_hint_x: 0.2
+            on_value: root.send_command('SLDR{}'.format(int(self.value)))
+        BoxLayout:
+            size_hint_x: 0.6
+            orientation: 'vertical'
+            Slider:
+                size_hint_y: .25
+                on_value: root.send_command('SLDH{}'.format(int(self.value))) 
+            BoxLayout:
+                size_hint_y: .5
+                orientation: 'vertical'
+                spacing: '10 dp'
+                BoxLayout:
+                    spacing: '10 dp'
+                    Button:
+                        bold: True
+                        text: 'Dance'
+                        on_press: root.send_command('DANCE')
+                    Button:
+                        bold: True
+                        text: "Say 'No'"
+                        on_press: root.send_command('SAYNO')
+                    Button:
+                        bold: True
+                        text: "Go Crazy"
+                        on_press: root.send_command('CRAZY')
+                BoxLayout:
+                    spacing: '10 dp'
+                    Button:
+                        bold: True
+                        text: 'Left Eye'
+                        on_press: root.send_command('BUTR')
+                    Button:
+                        bold: True
+                        text: 'Right Eye'
+                        on_press: root.send_command('BUTL')
+            Slider:
+                size_hint_y: .25
+                on_value: root.send_command('SLDB{}'.format(int(self.value)))
+        VerticalSlider: 
+            size_hint_x: 0.2
+            on_value: root.send_command('SLDL{}'.format(int(self.value)))
+            
+            
+<Slider>:
+    padding: '20 dp'
+    range: (0, 179)
+    step: 1
+    value: 89
+<VerticalSlider@Slider>:
+    padding: '50 dp'
+    orientation: 'vertical'
+    value: 0        
+<CustomPopup>:
+    popup_button: popup_button  
+    size_hint: .5, .5
+    title: 'Error!'
+    auto_dismiss: False
+    Button:
+        id: popup_button
+        text: '"Click me to dismiss"'
+        on_press: root.dismiss()   

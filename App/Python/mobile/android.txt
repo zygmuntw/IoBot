@@ -1,0 +1,3 @@
+title=IoBot
+author=Zygmunt Wojcik
+orientation=landscape
