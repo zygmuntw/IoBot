@@ -57,26 +57,21 @@ IoBot Design Files
 
 
 
+Licenses
+---------
 
-__Licenses:__
+__IoBot App and IoBot Sketch for Arduino:__
 
 Copyright 2015 Zygmunt Wojcik
 
-IoBot App v1.0 is free software: you can redistribute it and/or modify  
-it under the terms of the GNU General Public License as published by  
-the Free Software Foundation, either version 3 of the License, or  
-(at your option) any later version.
+IoBot App and IoBot Sketch for Arduino is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-IoBot App v1.0 is distributed in the hope that it will be useful,  
-but WITHOUT ANY WARRANTY; without even the implied warranty of  
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  
-GNU General Public License for more details.
+IoBot App and IoBot Sketch for Arduino is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License  
-along with this program.  If not, see <http://www.gnu.org/licenses/>.  
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.  
 
 
-__IoBot App v1.0 also uses modules or libraries from other projects:__
+__IoBot App and IoBot Sketch for Arduino also uses modules or libraries from other projects:__
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
 Kivy uses the MIT License - http://opensource.org/licenses/MIT
