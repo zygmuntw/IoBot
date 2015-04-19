@@ -43,7 +43,11 @@ __Features:__
 IoBot Sketch for Arduino
 ------------------------
 
+IoBot Sketch is a firmware for Arduino UNO Microcontroller Board.
 
+It is writen in Arduino, C+/C++ based programming language.
+
+It uses Ethernet Standard Library included in Arduino IDE and VarSpeedServo external library - https://github.com/netlabtoolkit/VarSpeedServo.git
 
 
 
