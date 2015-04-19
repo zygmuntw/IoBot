@@ -3,20 +3,14 @@ IoBot
 
 IoBot is a DIY Mobile / Desktop App controlled 3D printed robot project.
 
+See http://iobot.info/ for detailed instruction how to build and use your robot.
+
 This repository contains all the source files needed to built the IoBot:
 - App
 - Sketch for Arduino
 - Design
   - 3D Design
   - Schematics
-
-
-
-
-
-
-
-
 
 
 
@@ -32,8 +26,6 @@ IoBot App is application that allows you to control DIY, internet connected, Ard
 
 IoBot App is writen in Python and Kivy.
 
-See http://iobot.info/ for detailed instruction how to build and use your robot.
-
 
 __Features:__
 
@@ -44,7 +36,29 @@ __Features:__
 - LAN IP connection
 
 
-__License:__
+
+
+
+
+
+IoBot Sketch for Arduino
+------------------------
+
+
+
+
+
+
+
+IoBot Design Files
+------------------
+
+
+
+
+
+
+__Licenses:__
 
 Copyright 2015 Zygmunt Wojcik
 
@@ -66,25 +80,6 @@ __IoBot App v1.0 also uses modules or libraries from other projects:__
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
 Kivy uses the MIT License - http://opensource.org/licenses/MIT
-
-
-
-
-
-
-
-IoBot Sketch for Arduino
-------------------------
-
-
-
-
-
-
-
-IoBot Design Files
-------------------
-
 
 
 
