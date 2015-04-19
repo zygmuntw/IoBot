@@ -8,9 +8,8 @@ See http://iobot.info/ for detailed instruction how to build and use your robot.
 This repository contains all the source files needed to built the IoBot:
 - App
 - Sketch for Arduino
-- Design
-  - 3D Design
-  - Schematics
+- 3D Design
+- Schematics
 
 
 
@@ -75,10 +74,10 @@ IoBot App and IoBot Sketch for Arduino also uses modules or libraries from other
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
 Kivy uses the MIT License - http://opensource.org/licenses/MIT  
-VarSpeedServo uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License http://www.gnu.org/licenses/lgpl-2.1.txt
+VarSpeedServo uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License - http://www.gnu.org/licenses/lgpl-2.1.txt
 
 
-__IoBot 3D Design Files:__
+__IoBot 3D Design:__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot 3D Design</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
