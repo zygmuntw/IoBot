@@ -53,10 +53,23 @@ IoBot sketch is listening for LAPP messages (http://shop.ciseco.co.uk/llap/) fro
 
 
 
-IoBot Design Files
-------------------
+IoBot 3D Design Files
+---------------------
+
+IoBot 3D Design -  design for all printed parts needed to build the IoBot.
+
+This design is made with Blender.
+
+Blender is a free and open source 3D animation suite - http://www.blender.org/
 
 
+
+IoBot Schematics
+----------------
+
+IoBot schematics images was created with Fritzing.
+
+Fritzing is an open source software initiative to support designers and artists ready to move from physical prototyping to actual product - http://fritzing.org/home/
 
 
 
@@ -81,10 +94,10 @@ Kivy uses the MIT License - http://opensource.org/licenses/MIT
 Ethernet and VarSpeedServo Library for Arduino uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License - http://www.gnu.org/licenses/lgpl-2.1.txt
 
 
+
 __IoBot 3D Design:__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot 3D Design</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
-
 
 
 
