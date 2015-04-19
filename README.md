@@ -6,7 +6,7 @@ IoBot App is application that allows you to control DIY, internet connected, Ard
 See http://iobot.info/ for detailed instruction how to build your robot and how use it. 
 
 
-__Features__
+__Features:__
 
 - Move robot's arms, head and body
 - Blink robot's eyes
@@ -15,12 +15,12 @@ __Features__
 - LAN IP connection
 
 
-__Support__
+__Support:__
 
 If you are having issues, please let me know http://iobot.info/
 
 
-__License__
+__License:__
 
 Copyright 2015 Zygmunt Wojcik
 
