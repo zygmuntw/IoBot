@@ -5,10 +5,10 @@ IoBot is a DIY Mobile / Desktop App controlled 3D printed robot project.
 
 This repository contains all the source files needed to built the IoBot:
 - App
+- Sketch for Arduino
 - Design
   - 3D Design
   - Schematics
-- Arduino Sketch
 
 
 
@@ -70,11 +70,26 @@ Kivy uses the MIT License - http://opensource.org/licenses/MIT
 
 
 
+
+
+
+IoBot Sketch for Arduino
+------------------------
+
+
+
+
+
+
+
 IoBot Design Files
 ------------------
 
 
 
 
-
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot Design Files</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
+
+
