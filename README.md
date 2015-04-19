@@ -43,13 +43,14 @@ IoBot App is sending LLAP messages (http://shop.ciseco.co.uk/llap/) to Arduino v
 IoBot Sketch for Arduino
 ------------------------
 
-IoBot Sketch is a firmware for Arduino UNO Microcontroller Board.
+IoBot Sketch is a program for Arduino UNO Microcontroller Board.
+
+It allow the Arduino Board to listen for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888. Depending on received message it moves robot's arms, head and body or blink a led.
 
 It is writen in Arduino, C+/C++ based programming language.
 
 It uses Ethernet Standard Library included in Arduino IDE and VarSpeedServo external library - https://github.com/netlabtoolkit/VarSpeedServo.git
 
-IoBot sketch is listening for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888
 
 
 
