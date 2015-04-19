@@ -74,14 +74,17 @@ You should have received a copy of the GNU General Public License along with thi
 IoBot App and IoBot Sketch for Arduino also uses modules or libraries from other projects:
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
-Kivy uses the MIT License - http://opensource.org/licenses/MIT
-
+Kivy uses the MIT License - http://opensource.org/licenses/MIT  
+VarSpeedServo uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License http://www.gnu.org/licenses/lgpl-2.1.txt
 
 
 __IoBot 3D Design Files:__
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot 3D Design Files</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot 3D Design</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
 
 
 
+__IoBot Schematics:__
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot Schematics</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
