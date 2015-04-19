@@ -74,7 +74,7 @@ IoBot App and IoBot Sketch for Arduino also uses modules or libraries from other
 
 Python and pySerial uses the Python License - http://opensource.org/licenses/PythonSoftFoundation.php  
 Kivy uses the MIT License - http://opensource.org/licenses/MIT  
-VarSpeedServo uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License - http://www.gnu.org/licenses/lgpl-2.1.txt
+Ethernet and VarSpeedServo Library for Arduino uses the GNU LESSER GENERAL PUBLIC LICENSE v2.1 License - http://www.gnu.org/licenses/lgpl-2.1.txt
 
 
 __IoBot 3D Design:__
