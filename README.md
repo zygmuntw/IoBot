@@ -35,7 +35,7 @@ __Features:__
 - LAN IP connection
 
 
-
+IoBot App is sending LLAP messages (http://shop.ciseco.co.uk/llap/) to Arduino via Serial or UDP port: 8888
 
 
 
@@ -49,7 +49,7 @@ It is writen in Arduino, C+/C++ based programming language.
 
 It uses Ethernet Standard Library included in Arduino IDE and VarSpeedServo external library - https://github.com/netlabtoolkit/VarSpeedServo.git
 
-
+IoBot sketch is listening for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888
 
 
 
