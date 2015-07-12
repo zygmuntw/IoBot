@@ -14,14 +14,10 @@ This repository contains all the source files needed to built the IoBot:
 
 
 
-
-
-
-
 IoBot App
 ---------
 
-IoBot App is application that allows you to control DIY, internet connected, Arduino based robot (IoBot).
+IoBot App is application that allows you to control DIY, internet connected robot (IoBot).
 
 IoBot App is writen in Python and Kivy.
 
@@ -40,18 +36,20 @@ IoBot App is sending LLAP messages (http://shop.ciseco.co.uk/llap/) to Arduino v
 
 
 
-IoBot Sketch for Arduino
-------------------------
+IoBot Sketch for Arduino IDE
+----------------------------
 
-IoBot Sketch is a program for Arduino UNO Microcontroller Board.
+IoBot Sketch is a program for Arduino IDE.
 
-It allow the Arduino Board to listen for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888. Depending on received message it moves robot's arms, head and body or blink a led.
+There are different versions for different microcontrollers.
+
+It allow the microcontroller to listen for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888. Depending on received message it moves robot's arms, head and body or blink a led.
 
 It is writen in Arduino, C+/C++ based programming language.
 
-It uses Ethernet Standard Library included in Arduino IDE and VarSpeedServo external library - https://github.com/netlabtoolkit/VarSpeedServo.git
+Arduino Uno version uses Ethernet Standard Library included in Arduino IDE and VarSpeedServo external library - https://github.com/netlabtoolkit/VarSpeedServo.git
 
-
+ESP8266 version uses ESP8266Wifi and Standard Servo Library.
 
 
 IoBot 3D Design Files
@@ -77,7 +75,7 @@ Fritzing is an open source software initiative to support designers and artists 
 Licenses
 ---------
 
-__IoBot App and IoBot Sketch for Arduino:__
+__IoBot App and IoBot Sketch for Arduino IDE:__
 
 Copyright 2015 Zygmunt Wojcik
 
@@ -98,7 +96,7 @@ Ethernet and VarSpeedServo Library for Arduino uses the GNU LESSER GENERAL PUBLI
 
 __IoBot 3D Design:__
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot 3D Design</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">IoBot Schematics</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.iobot.info" property="cc:attributionName" rel="cc:attributionURL">Zygmunt Wojcik</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
 
 
