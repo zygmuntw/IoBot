@@ -41,7 +41,7 @@ IoBot Sketch for Arduino IDE
 
 IoBot Sketch is a program for Arduino IDE.
 
-There are different versions for different microcontrollers.
+There are different versions of sketch for different microcontrollers.
 
 It allow the microcontroller to listen for LAPP messages (http://shop.ciseco.co.uk/llap/) from IoBot App on Serial and UDP port: 8888. Depending on received message it moves robot's arms, head and body or blink a led.
 
